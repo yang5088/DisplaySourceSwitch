@@ -197,7 +197,7 @@ static void showBrightnessLevelPaneOnDisplay (uint brightnessLevelInSubsteps, CG
             //更改增加输入源的控制 202009281921
             if ((event.keyCode == [[self.keys valueForKey:self.changeInputSourceKey] unsignedShortValue]) &&
                 ((self.changeInputSourceFnKey == 0) || (event.modifierFlags & self.changeInputSourceFnKey))) {
-                [AppDelegate ChangeInputSource: [APP_DELEGATE.inputSourceCode intValue]];
+                [AppDelegate ChangeInputSource: 17];
             }
             
             float valueStep = COLOR_TEMPERATURE_STEP;
